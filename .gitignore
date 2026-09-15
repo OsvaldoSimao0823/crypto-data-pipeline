@@ -1,0 +1,8 @@
+*.csv
+*.db
+logs/
+plugins/
+config/
+.env
+__pycache__/
+.vscode/
