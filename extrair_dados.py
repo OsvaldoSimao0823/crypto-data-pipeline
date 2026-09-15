@@ -23,5 +23,5 @@ print(tudo.shape)
 print(tudo.head())
 print(tudo.tail())
 
-tudo.to_csv("dados_brutos.csv", index=False)
+tudo.to_csv("data/dados_brutos.csv", index=False)
 print("Guardado com sucesso.")

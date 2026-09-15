@@ -1,9 +1,10 @@
 import pandas as pd
 import pytest
 
+
 @pytest.fixture
 def dados():
-    return pd.read_csv("dags/dados_processados.csv")
+    return pd.read_csv("data/dados_processados.csv")
 
 def test_nao_esta_vazio(dados):
     assert len(dados) > 0

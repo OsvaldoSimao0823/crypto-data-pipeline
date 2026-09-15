@@ -1,6 +1,7 @@
 import pandas as pd
 
-tabela = pd.read_csv("dados_brutos.csv")
+
+tabela = pd.read_csv("data/dados_brutos.csv")
 
 tabela["data"] = pd.to_datetime(tabela["timestamp"], unit="ms")
 
@@ -17,5 +18,5 @@ print(diario.shape)
 print(diario.columns)
 print(diario.shape)
 
-diario.to_csv("dados_processados.csv", index=False)
+diario.to_csv("data/dados_processados.csv", index=False)
 print("Dados processados guardados com sucesso.")

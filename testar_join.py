@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-conexao = sqlite3.connect("crypto.db")
+conexao = sqlite3.connect("data/crypto.db")
 
 query = """
 SELECT dim_moeda.nome_completo, fato_precos.dia, fato_precos.preco_usd
