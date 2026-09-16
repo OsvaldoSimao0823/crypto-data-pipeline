@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/Acer/Desktop/crypto-pipeline/mlruns/1/models/m-f95377ab553e45f892e9fdabbe862f4d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-f95377ab553e45f892e9fdabbe862f4d
+model_size_bytes: 11433
+model_uuid: m-f95377ab553e45f892e9fdabbe862f4d
+prompts: null
+run_id: a939694a373f4fc4938c0b0eb37d2240
+utc_time_created: '2026-09-16 18:29:55.879267'
