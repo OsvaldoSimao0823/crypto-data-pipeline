@@ -100,4 +100,4 @@ Este resultado negativo foi mantido deliberadamente no projeto, em vez de escond
 
 ## Autor
 
-Osvaldo Simão — [LinkedIn](https://linkedin.com/in/osvaldo-simao676767259)
+Osvaldo Simão — [LinkedIn](https://www.linkedin.com/in/osvaldo-sim%C3%A3o-676767259/)
