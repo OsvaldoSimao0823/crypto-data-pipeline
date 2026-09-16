@@ -1,5 +1,9 @@
 import requests
 import pandas as pd
+import os
+
+os.makedirs("data", exist_ok=True)
+
 def buscar_historico(moeda):
     url = f"https://api.coingecko.com/api/v3/coins/{moeda}/market_chart"
     parametros = {
